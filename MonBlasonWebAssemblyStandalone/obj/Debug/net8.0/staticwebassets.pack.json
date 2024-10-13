@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\obj\\Debug\\net8.0\\compressed\\q5sxwmv15h.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MonBlasonWebAssemblyStandalone.styles.css",
+      "PackagePath": "staticwebassets\\MonBlasonWebAssemblyStandalone.styles.css"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "H:\\MonBlason\\MonBlasonWebAssemblyStandalone\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MonBlasonWebAssemblyStandalone.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MonBlasonWebAssemblyStandalone.props",
+      "PackagePath": "build\\MonBlasonWebAssemblyStandalone.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MonBlasonWebAssemblyStandalone.props",
+      "PackagePath": "buildMultiTargeting\\MonBlasonWebAssemblyStandalone.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MonBlasonWebAssemblyStandalone.props",
+      "PackagePath": "buildTransitive\\MonBlasonWebAssemblyStandalone.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

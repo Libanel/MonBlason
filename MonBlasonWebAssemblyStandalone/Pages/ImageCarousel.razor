@@ -1,0 +1,31 @@
+﻿@using MonBlasonWebAssemblyStandalone.Models
+
+<div style="text-align: center;">
+    <button class="btn btn-secondary" @onclick="PreviousImage">←</button>
+
+    <div style="display: inline-block; margin: 0 20px;">
+        <img src="@Images[currentIndex].ImageUrl" alt="@Images[currentIndex].AltText" style="width: 300px; height: 300px;" />
+        @* <p>@Images[currentIndex].Text</p> *@
+    </div>
+
+    <button class="btn btn-secondary" @onclick="NextImage">→</button>
+</div>
+
+<p style="text-align: center;">@Images[currentIndex].Text</p>
+
+@code {
+    [Parameter]
+    public List<ImageItem> Images { get; set; } = new List<ImageItem>();
+
+    private int currentIndex = 0;
+
+    private void NextImage()
+    {
+        currentIndex = (currentIndex + 1) % Images.Count;
+    }
+
+    private void PreviousImage()
+    {
+        currentIndex = (currentIndex - 1 + Images.Count) % Images.Count;
+    }
+}

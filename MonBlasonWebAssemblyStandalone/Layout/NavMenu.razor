@@ -1,13 +1,14 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">MonBlasonWebAssemblyStandalone</a>
+        <a class="navbar-brand" href="">MonBlason</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+@* <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu"> *@
+<div class="nav-scrollable">
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
@@ -15,13 +16,23 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="goutsCulinaires">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Goûts culinaires
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            <NavLink class="nav-link" href="musique">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Musique
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="spiritualite">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> spiritualité
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="sport">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> sport
             </NavLink>
         </div>
     </nav>

@@ -1,0 +1,15 @@
+﻿@using MonBlasonWebAssemblyStandalone.Models
+@page "/sport"
+
+<h3>Sport</h3>
+
+<ImageCarousel Images="imageItems" />
+
+@code {
+    private List<ImageItem> imageItems = new List<ImageItem>
+    {
+        new ImageItem { ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrPAFqTFum9N4zF7fgfrSiAt3wVg5LD5OVw&s", Text = "Niveau sport, je suis ceinture noire de judo. Cette discipline m'a appris la rigueur, le respect, et l'équilibre, tant physique que mental.", AltText = "Judo" },
+        new ImageItem { ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nnOzX4BiVfPqlViOfF1P0AxMDEGOXdAN8Q&s", Text = "J'ai aussi pratiqué la capoeira, un art martial brésilien qui mêle danse, musique et combat. C'est une discipline complète et énergique.", AltText = "Capoeira" },
+        new ImageItem { ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5N8BcNQ3z8YAVkTBBSxfexNA9ZibBdN5AGQ&s", Text = "Enfin, le ninjato fait partie de mon parcours sportif. Cet art du maniement de l'épée développe concentration, discipline et maîtrise de soi.", AltText = "Ninjato" }
+    };
+}

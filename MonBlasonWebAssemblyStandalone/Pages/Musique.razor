@@ -1,0 +1,17 @@
+﻿@using MonBlasonWebAssemblyStandalone.Models
+@page "/musique"
+
+<h3>Musique</h3>
+
+<ImageCarousel Images="imageItems" />
+
+@code {
+    private List<ImageItem> imageItems = new List<ImageItem>
+    {
+        new ImageItem { ImageUrl = "https://follyfoam.com/images/com_hikashop/upload/b9af735c-7e34-4fd8-8915-56a3d0c782c9.jpg", Text = "Continuons notre exploration d'Armand en plongeant dans ses goûts musicaux.", AltText = "Présentation" },
+        new ImageItem { ImageUrl = "https://media.istockphoto.com/id/1183921035/fr/vectoriel/geste-de-signe-de-roche-avec-la-foudre-pour-votre-conception.jpg?s=612x612&w=0&k=20&c=zrXHZvjTwwQ1xl6v_Z5oRj5Nb1weNSi95MZe0GauscI=", Text = "J'apprécie particulièrement le rock avec des groupes emblématiques comme ZZ Top, dont 'La Grange', Motörhead avec des classiques comme 'Ace of Spades' et 'Overkill', ainsi qu'AC/DC (je ne crois pas qu'il y ait une musique que je n'apprécie pas, surtout depuis qu'ils sont revenus d'Inde), tout en étant passionné par le rock Japonais Arc en Ciel avec par exemple 'Ready Steady Go'", AltText = "Rock" },
+        new ImageItem { ImageUrl = "https://www.animation.couronneries.fr/wp-content/uploads/2020/10/Fete-du-Centre-dAnimation-des-Couronneries-2019.-926-scaled.jpg", Text = "J'apprécie aussi énormément la musique des Antilles françaises comme anglaises et espagnoles. Donc la biguine, le zouk, le mazurka, le quadrille, steel band, calypso, salsa, merengue, reggae...", AltText = "Antilles" },
+        new ImageItem { ImageUrl = "https://static.fnac-static.com/multimedia/Images/FD/Comete/133664/CCP_IMG_1200x800/1751366.jpg", Text = "La musique classique européenne. J'ai beaucoup moins de référence quand dans les deux premiers domaines. Mais j'apprécie tout particulièrement Giuseppe Verdi (surtout ses requiems), sinon Chopin, Yann Tiersen, Yiruma et tous les autres plus célèbres artistes de la musique classique (Tchaikovsky, Debussy, etc.).", AltText = "Musique classique europénne" },
+        new ImageItem { ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReRqUVq5igVtHtBeB5tCPIeVV3_CsN0HK2Jw&s", Text = "Je dis 'techno' mais j'inclus dedans la k-pop, j-pop, la trans (très spécial mais moi j'aime bien), la house, la island house, la techno tropicale et la dub techno.", AltText = "Techno" }
+    };
+}
