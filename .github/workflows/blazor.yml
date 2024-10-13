@@ -11,15 +11,15 @@ jobs:
 
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # Met à jour vers la dernière version
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v2
+      uses: actions/setup-dotnet@v3  # Met à jour vers la dernière version
       with:
         dotnet-version: '8.0.x'
 
     - name: Build the app
-      run: dotnet publish -c Release -o build
+      run: dotnet publish ./YourProjectName/YourProjectName.csproj -c Release -o ./build  # Cibler le projet
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
