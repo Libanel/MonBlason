@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonBlasonWebAssemblyStandalone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65cabdab7a58980d3f6e366f649abcc21f188567")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonBlasonWebAssemblyStandalone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonBlasonWebAssemblyStandalone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
