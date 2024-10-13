@@ -33,7 +33,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-QNnfye0JSm2ZEq5e8pL3tsdXTBQQ67vHHX\/X9ND8gdU=",
+      "hash": "sha256-8qA0f8cCqMu5rYWtWbASpYhMKjLTSLrJHljaGS7DD6c=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -93,7 +93,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-sUJmJOmSTLbm5wC2OQwc38M34kx0UD1VEGRBemDMX4U=",
+      "hash": "sha256-TK+mo1+NWdvbvTO707SalCdcTxmVV\/k8wQvZswK03tc=",
       "url": "_framework\/MonBlasonWebAssemblyStandalone.wasm"
     },
     {
@@ -101,7 +101,7 @@
       "url": "_framework\/System.Collections.Concurrent.wasm"
     },
     {
-      "hash": "sha256-ECgzHxyb1OX+H12QedhUiW9OEch4gdZ92qGZLBk+o28=",
+      "hash": "sha256-bfnHa9nlzoceyssbxw2Hl1sJaA4YMgpVR+hHOu8n8Bo=",
       "url": "_framework\/System.Collections.wasm"
     },
     {
@@ -193,7 +193,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-MgB42kDo0jE5XUWxgT4tE\/XH95ltqbfUWBkt2sIu5u4=",
+      "hash": "sha256-ISElcI8CErBngVrnqcyO16zQ5Knmu479qGxK9lvDnAA=",
       "url": "index.html"
     },
     {
@@ -205,5 +205,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "wbxuiWuS"
+  "version": "OLDGk8RQ"
 };
